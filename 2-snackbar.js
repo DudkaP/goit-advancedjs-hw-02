@@ -1,0 +1,2 @@
+import"./assets/styles-BlhP0jnS.js";const t=document.querySelector(".form");t.addEventListener("submit",i=>{i.preventDefault();const s=Number(t.delay.value),o=t.state.value;new Promise((e,r)=>{setTimeout(()=>{o==="fulfilled"?e(s):r(s)},s)}).then(e=>{iziToast.success({title:"",message:`✅ Fulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{iziToast.error({title:"",message:`❌ Rejected promise in ${e}ms`,position:"topRight"})}),t.reset()});
+//# sourceMappingURL=2-snackbar.js.map
